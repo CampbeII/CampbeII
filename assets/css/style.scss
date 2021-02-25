@@ -7,9 +7,9 @@
 }
 
 header{
-    display:grid;
-    grid-template-columns:var(--logo-width) auto;
+    display:flex;
     padding:0.5rem;
+    justify-content:space-between;
     background:transparent;
 }
 .header-logo-img{
@@ -24,7 +24,7 @@ header{
 }
 .header-menu{
     --line-width:2rem;
-    --line-height:0.1rem;
+    --line-height:2px;
     --line-radius:3px;
     --line-color:#111;
     --line-color-open:#111;
