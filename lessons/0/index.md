@@ -33,12 +33,35 @@ If done properly you should see the following message. Clicking the link will ta
 ![enable github pages](images/enable-github-pages.png)
 
 ## 3. Connect to a Repository
-Nothing beats the [GitHub Documentation](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)'. Head there to find the instructions for your operating system. If you aren't familiar with the command line I recommend you download [GitHub desktop](https://desktop.github.com/) as it the connection for you.
+Nothing beats the [GitHub Documentation](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). Head there to find the instructions for your operating system. If you aren't familiar with the command line, I recommend you download [GitHub desktop](https://desktop.github.com/) as it handles the connection for you.
 
 ## 4. Clone the Repository
-
 This command will create a new directory on your computer using the same name as the repository.
 
 ```shell
-$ git clone git@github.com:username/username.git
+git clone git@github.com:username/username.git
 ```
+
+Sweet! Okay, we should now have the following files in our directory:
+
+```shell
+ls
+README.md
+_config.yml
+```
+**README.md**
+This is a markdown file. It uses GitHubs' modified markdown syntax which you can read more about [here](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
+
+A README.md will be the first thing someone sees when they visit your repo. However this is a __special__ README.md file because it will show up on your profile page for everyone to see!
+
+**_config.yml**
+This is a [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) file. It is used to configure our theme. When you change your theme in your settings, the change will be applied here.
+
+## 5. Customizing Your Website
+View your website by visiting the link specified in your settings under GitHub Pages. It typically looks like:
+```shell
+https://username.github.io/username
+```
+Not bad right? But we'll want to change some data and make it our own design. For that, we're going to need to add a few folders and files to our project.
+
+
