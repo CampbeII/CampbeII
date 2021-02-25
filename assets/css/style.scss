@@ -9,17 +9,13 @@ header{
     padding:0.5rem;
     background:transparent;
 }
+.header-img{
+    width:5rem;
+}
 .header-nav{
     width:100%;
     position:absolute;
     top:--100vh;
     left:0;
     transition:top 0.5s, padding 0.5s;
-}
-main{
-    width:100%;
-    position:fixed;
-    top:0;
-    left:0;
-    background:#222;
 }
