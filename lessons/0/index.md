@@ -1,4 +1,4 @@
-# Hosting a Portfolio with GitHub pages
+# Hosting a Portfolio with GitHub Pages
 A start to finish guide on how to create, customize, and host your first portfolio piece on GitHub pages.
 
 ## What We'll Cover
@@ -10,6 +10,7 @@ A start to finish guide on how to create, customize, and host your first portfol
 
 ## 0. Create a GitHub Account
 This part should be easy since you're already on GitHub. Head to the [sign up page](https://github.com/join)
+Take some time to dig into your settings you can change the theme, your picture, and more.
 
 ## 1. Create a Secret Repository
 When you use your exact username as the name of your new repo GitHub  will initialize a secret repo that allows you to host a website directly from your profile. Make sure that you meet the following conditions:
