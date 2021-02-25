@@ -2,15 +2,18 @@
 ---
 
 @import 'jekyll-theme-cayman';
+:root{
+    --logo-width:3rem;
+}
 
 header{
     display:grid;
-    grid-template-columns:5rem auto;
+    grid-template-columns:var(--logo-width) auto;
     padding:0.5rem;
     background:transparent;
 }
 .header-logo-img{
-    width:5rem;
+    width:var(--logo-width);
 }
 .header-nav{
     width:100%;
@@ -18,4 +21,40 @@ header{
     top:--100vh;
     left:0;
     transition:top 0.5s, padding 0.5s;
+}
+.header-menu{
+    --line-width:2rem;
+    --line-height:0.1rem;
+    --line-radius:3px;
+    --line-color:#111;
+    --line-color-open:#111;
+    --line-gap:0.5rem;
+
+    position:relative;
+    width:var(--line-width);
+    text-align:right;
+    justify-content:right;
+}
+.header-menu-line{
+    height:var(--line-height);
+    border-radius:var(--line-radius);
+    background-color:var(--line-color);
+    display:block;
+    transform-origin:right;
+    transition:transform .3s, background-color .3s linear .15s;
+}
+.header-menu-line:first-child{
+    margin-bottom:var(--line-gap);
+}
+.trigger{
+    display:none;
+}
+.trigger:checked ~ .header-menu .header-menu-line{
+    background:var(--line-color-open);
+}
+.trigger:checked ~ .header-menu .header-menu-line:first-child{
+    transform:rotate(-45deg);
+}
+.trigger:checked ~ .header-menu .header-menu-line:last-child{
+    transform:rotate(45deg) translateY(0.5rem) translateX(0.5rem);
 }
