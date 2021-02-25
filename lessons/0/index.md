@@ -74,5 +74,6 @@ In the theme repo we are going to want to copy the following files & structure e
 To quickly copy the contents of the `default.html` and `styles.scss` files you can click the "Raw" button when viewing the file.
 ![raw copy](images/raw.png)
 
-** Remove what you don't need **
-I want to create a completely custom design all content within the `header`, `main`,  and `footer` elements.
+**Remove what you don't need**
+I want to create a completely custom design, but keep all the essential template variables. I will remove all content within the `<header>`, `<main>`,  and `<footer>` elements.
+
