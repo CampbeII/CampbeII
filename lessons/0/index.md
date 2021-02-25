@@ -13,19 +13,19 @@ This part should be easy since you're already on GitHub. Head to the [sign up pa
 
 ## 1. Create a Secret Repository
 When you use your exact username as the name of your new repo GitHub  will initialize a secret repo that allows you to host a website directly from your profile. Make sure that you meet the following conditions:
-- [ ] The repo name is the exact same as your username
-- [ ] You have checked the public box
-- [ ] You have checked "initialize with a README.md" box
+- [x] The repo name is the exact same as your username
+- [x] You have checked the public box
+- [x] You have checked "initialize with a README.md" box
 
 If successful you should see an image similar to below:
 ![secret repo](images/secret-repo.png)
 
 ### 2. Initialize GitHub Pages
 On GitHub open your new repo and click the "settings" button. Scroll down to where you see GitHub Pages.
-- [ ] Enable GitHub Pages
-- [ ] Use your main branch as the source
-- [ ] Choose a theme
-- [ ] Ignore custom domain (for now)
+- [x] Enable GitHub Pages
+- [x] Use your main branch as the source
+- [x] Choose a theme
+- [x] Ignore custom domain (for now)
 
 If done properly you should see the following message. Clicking the link will take you to your new live site!
 ![enable github pages](images/enable-github-pages.png)
