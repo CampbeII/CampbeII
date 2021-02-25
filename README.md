@@ -3,4 +3,4 @@ I love solving complex problems with computer code. When i'm not hacking away at
 
 ## Meet ups
 Recently a group of motivated web developers have banded together to network, and learn from each other. Each week we will be tackling a new problem. I plan to post the solutions to those problem here.
-- [Hosting a portfolio with Github pages](lessons/0/index.md)
+- [Hosting a portfolio with Github pages](/lessons/0/index.md)
