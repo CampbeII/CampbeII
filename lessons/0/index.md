@@ -17,7 +17,7 @@ When you use your exact username as the name of your new repo GitHub  will initi
 - You have checked the public box
 - You have checked "initialize with a README.md" box
 If successful you should see an image similar to below:
-![secret repo](/images/secret-repo.jpg)
+![secret repo](/images/secret-repo.png)
 
 ### Initialize GitHub Pages
 On GitHub open your new repo and click the "settings" button. Scroll down to where you see GitHub Pages.
