@@ -62,6 +62,17 @@ View your website by visiting the link specified in your settings under GitHub P
 ```shell
 https://username.github.io/username
 ```
-Not bad right? But we'll want to change some data and make it our own design. For that, we're going to need to add a few folders and files to our project.
+The first thing you will notice is that your website contains the contents of your `README.md` file along with some other automatically generated content. In order to change the look of this page we will need to add some files to our project.
 
+Visit the repository of your chosen theme. You can find a list of themes [here](https://pages.github.com/themes/)
 
+In the theme repo we are going to want to copy the following files & structure exactly:
+
+- `_layouts/default.html`
+- `assets/css/styles.scss`
+
+To quickly copy the contents of the `default.html` and `styles.scss` files you can click the "Raw" button when viewing the file.
+![raw copy](images/raw.png)
+
+** Remove what you don't need **
+I want to create a completely custom design all content within the `header`, `main`,  and `footer` elements.
