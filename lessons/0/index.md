@@ -17,7 +17,7 @@ When you use your exact username as the name of your new repo GitHub  will initi
 - You have checked the public box
 - You have checked "initialize with a README.md" box
 If successful you should see an image similar to below:
-![secret repo](/images/secret-repo.png)
+![secret repo](images/secret-repo.png)
 
 ### Initialize GitHub Pages
 On GitHub open your new repo and click the "settings" button. Scroll down to where you see GitHub Pages.
@@ -27,7 +27,7 @@ On GitHub open your new repo and click the "settings" button. Scroll down to whe
 - Ignore custom domain (for now)
 
 If done properly you should see the following message. Clicking the link will take you to your new live site!
-![enable github pages](/images/enable-github-pages.png)
+![enable github pages](images/enable-github-pages.png)
 
 ## Connect to a Repository
 We're going to connect to our new repo using an SSH connection. In order to do that we need to setup a few things first.
