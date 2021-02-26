@@ -17,6 +17,8 @@ header{
 }
 .header-logo{
     height:var(--logo-height);
+    position:relative;
+    z-index:2;
 }
 .header-logo-img{
     width:var(--logo-width);
@@ -81,4 +83,8 @@ header{
 }
 #open_menu:checked ~ .header-menu .header-menu-line:last-child{
     transform:rotate(45deg) translateY(var(--line-shift)) translateX(0.5rem);
+}
+
+main{
+    
 }
