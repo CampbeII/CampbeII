@@ -104,9 +104,11 @@ h1{
 }
 @media (min-width:568px) {
     .header-nav{
-        display:flex;
+        display:grid;
+        grid-gap:0.5rem;
         align-items:center;
-        justify-content:flex-end;
+        position:relative;
+        top:0;
     }
     .header-menu{
         display:none;
