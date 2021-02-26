@@ -124,14 +124,37 @@ h1{
 .bg{
     background:var(--ui-color-2);
     padding:var(--padding);
+    height:calc(100vh - var(--logo-height) - (var(--padding) * 5)); /* occurs 5x */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.bg-caption{
+    text-align:center;
 }
 .bg-caption-title, .bg-caption-txt{
     color:var(--ui-font-color-1);
+}
+#about{
+    padding-top:var(--section-padding);
+    display:flex;
+    
+}
+.about-img{
+    width:3rem;
+    height:3rem;
+    margin-right:var(--padding);
 }
 #work{
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(200px, 320px));
     grid-gap:var(--padding);
+    padding-top:var(--section-padding);
+}
+.work-title{
+    grid-column:1/-1;
+    height:100%;
+    max-height:320px;
 }
 .work-tile{
     text-align:center;
