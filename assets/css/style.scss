@@ -6,8 +6,8 @@
     --logo-width:3rem;
     --logo-height:3rem;
     --ui-color-1:#fff;
+    --ui-color-2:#efefef;
     --ui-font-color-1:#111;
-    --ui-font-color-2:#efefef;
     --padding:0.5rem;
 }
 header{
@@ -101,4 +101,14 @@ footer{
 }
 h1{
     text-transform:uppercase;
+}
+@media (min-width:568px) {
+    .header-nav{
+        display:flex;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .header-menu{
+        display:none;
+    }
 }
