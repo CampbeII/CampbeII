@@ -6,7 +6,8 @@
     --logo-width:3rem;
     --logo-height:3rem;
     --ui-color-1:#fff;
-    --ui-font-color-1:#000;
+    --ui-font-color-1:#111;
+    --ui-font-color-2:#efefef;
     --padding:0.5rem;
 }
 header{
@@ -85,8 +86,19 @@ header{
 #open_menu:checked ~ .header-menu .header-menu-line:last-child{
     transform:rotate(45deg) translateY(var(--line-shift)) translateX(0.5rem);
 }
-
+body{
+    color:var(--ui-font-color-1);
+}
 main{
    padding-left:var(--padding); 
    padding-right:var(--padding); 
+}
+footer{
+    background:var(--ui-color-2);
+    padding-left:var(--padding); 
+    padding-right:var(--padding); 
+    text-align:center;
+}
+h1{
+    text-transform:uppercase;
 }
