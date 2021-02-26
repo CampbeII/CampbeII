@@ -28,9 +28,24 @@ header{
     height:var(--logo-height);
     position:relative;
     z-index:2;
+    width:var(--logo-width);
 }
+/**
+* logo
+*
+* SVG Logo styles
+*/
 .header-logo-img{
     width:var(--logo-width);
+}
+svg polyline,svg path{
+    fill:none;
+    stroke:var(--ui-font-color-1);
+    stroke-width:4px;
+    stroke-miterlimit:10;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
 }
 .header-nav{
     width:100%;
