@@ -1,16 +1,17 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman';
+/*@import 'jekyll-theme-cayman'; */
 :root{
     --logo-width:3rem;
     --logo-height:3rem;
     --ui-color-1:#fff;
-    --ui-font-color-1:#111;
+    --ui-font-color-1:#000;
+    --padding:0.5rem;
 }
 header{
     display:flex;
-    padding:0.5rem;
+    padding:var(--padding);
     justify-content:space-between;
     align-items:center;
     background:var(--ui-color-1);
@@ -38,7 +39,7 @@ header{
     color:var(--ui-font-color-1);
     display:block;
     font-size:1rem;
-    padding-bottom:1rem;
+    padding-bottom:var(--padding);
     line-height:1rem;
 }
 #open_menu:checked ~ .header-nav{
@@ -86,5 +87,6 @@ header{
 }
 
 main{
-    
+   padding-left:var(--padding); 
+   padding-right:var(--padding); 
 }
