@@ -41,12 +41,10 @@ header{
 svg polyline,svg path{
     fill:none;
     stroke:var(--ui-font-color-1);
-    stroke-width:4px;
+    stroke-width:7px;
     stroke-miterlimit:10;
     stroke-linecap:round;
     stroke-linejoin:round;
-    stroke-miterlimit:10;
-    shape-rendering:crispEdges;
 }
 .header-nav{
     width:100%;
@@ -73,7 +71,7 @@ svg polyline,svg path{
 }
 .header-menu{
     --line-width:2rem;
-    --line-height:4px;
+    --line-height:3px;
     --line-radius:3px;
     --line-color:var(--ui-font-color-1);
     --line-color-open:var(--ui-font-color-1);
@@ -121,6 +119,22 @@ footer{
 }
 h1{
     text-transform:uppercase;
+}
+
+.bg{
+    background:var(--ui-color-2);
+    padding:var(--padding);
+}
+.bg-caption-title, .bg-caption-txt{
+    color:var(--ui-font-color-1);
+}
+#work{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 320px));
+    grid-gap:var(--padding);
+}
+.work-tile{
+    text-align:center;
 }
 @media (min-width:568px) {
     .header-nav{
