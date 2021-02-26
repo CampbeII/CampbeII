@@ -9,6 +9,7 @@
     --ui-color-2:#efefef;
     --ui-font-color-1:#111;
     --padding:0.5rem;
+    --section-padding:1rem;
 }
 header{
     display:flex;
@@ -92,11 +93,11 @@ body{
 main{
    padding-left:var(--padding); 
    padding-right:var(--padding); 
+   min-height:90vh;
 }
 footer{
     background:var(--ui-color-2);
-    padding-left:var(--padding); 
-    padding-right:var(--padding); 
+    padding:var(--section-padding) var(--padding);
     text-align:center;
 }
 h1{
@@ -107,6 +108,7 @@ h1{
         display:flex;
         align-items:center;
         position:relative;
+        width:fit-content;
         top:0;
     }
     .header-nav-a{
