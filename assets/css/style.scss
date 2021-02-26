@@ -4,13 +4,19 @@
 @import 'jekyll-theme-cayman';
 :root{
     --logo-width:3rem;
+    --logo-height:3rem;
+    --ui-color-1:#fff;
+    --ui-font-color-1:#111;
 }
 header{
     display:flex;
     padding:0.5rem;
     justify-content:space-between;
     align-items:center;
-    background:#efefef;
+    background:var(--ui-color-1);
+}
+.header-logo{
+    height:var(--logo-height);
 }
 .header-logo-img{
     width:var(--logo-width);
@@ -18,19 +24,20 @@ header{
 .header-nav{
     width:100%;
     position:absolute;
-    top:--100vh;
+    top:-100vh;
     left:0;
     transition:top 0.5s, padding 0.5s;
+    background:var(--ui-color-1);
 }
 .header-nav-a{
     text-align:center;
     text-decoration:none;
     text-transform:uppercase;
-    color:#111;
+    color:var(--ui-font-color-1);
     display:block;
     font-size:1rem;
     padding-bottom:1rem;
-    line-height:1rem;;
+    line-height:1rem;
 }
 #open_menu:checked ~ .header-nav{
     top:0;
@@ -41,13 +48,14 @@ header{
     --line-width:2rem;
     --line-height:2px;
     --line-radius:3px;
-    --line-color:#111;
-    --line-color-open:#111;
+    --line-color:var(--ui-font-color-1);
+    --line-color-open:var(--ui-font-color-1);
     --line-gap:0.5rem;
     --line-shift:calc(var(--line-gap) + (var(--line-height) / 2));
 
     position:relative;
     width:var(--line-width);
+    height:var(--line-width);
     text-align:right;
     justify-content:right;
 }
