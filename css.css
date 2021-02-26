@@ -34,6 +34,7 @@ header{
 * logo
 *
 * SVG Logo styles
+*useless change
 */
 .header-logo-img{
     width:var(--logo-width);
@@ -179,6 +180,7 @@ h1{
 #hire label{
     display:block;
     margin-top:var(--padding);
+    margin-bottom:var(--padding);
 }
 #hire input{
     background:var(--ui-color-2);
@@ -195,10 +197,11 @@ h1{
     font-size:1rem;
 }
 #hire button{
-    border:0.1rem solid var(--ui-color-1);
+    border:0.1rem solid var(--ui-font-color-1);
     padding:var(--padding);
     margin-top:var(--padding);
     text-transform:uppercase;
+    background:transparent;
 }
 @media (min-width:568px) {
     .header-nav{
