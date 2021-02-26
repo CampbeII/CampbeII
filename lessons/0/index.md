@@ -7,7 +7,7 @@ A start to finish guide on how to create, customize, and host your first portfol
 - [Initialize GitHub pages](#2-initialize-github-pages)
 - [Connect to a repository](#3-connect-to-a-repository)
 - [Clone the repository](#3-clone-the-repository)
-- [Customize a jekyll theme](#github)
+- [Customize a website](#github)
 
 ## 0. Create a GitHub Account
 This part should be easy since you're already on GitHub. Head to the [sign up page](https://github.com/join)
@@ -73,6 +73,3 @@ In the theme repo we are going to copy the following files & structure exactly:
 
 To quickly copy the contents of the `default.html` and `styles.scss` files you can click the "Raw" button when viewing the file.
 ![raw copy](images/raw.png)
-
-I want to create a completely custom design, but keep all the essential template variables. I will remove all content within the `<header>`, `<main>`,  and `<footer>` elements.
-

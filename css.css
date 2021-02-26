@@ -173,6 +173,23 @@ h1{
     align-items:center;
     justify-content:center;
 }
+/**
+* Contact Form
+*/
+#hire label{
+    display:block;
+}
+#hire input{
+    background:var(--ui-color-2);
+    height:2rem;
+    font-family:'Open Sans', sans-serif;
+    font-size:1rem;
+    line-height:1rem;
+}
+#hire textarea{
+    background:var(--ui-color-2);
+    min-height:8rem;
+}
 @media (min-width:568px) {
     .header-nav{
         display:flex;
