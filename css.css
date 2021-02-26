@@ -132,6 +132,9 @@ h1{
 .bg-caption{
     text-align:center;
 }
+.bg-caption-txt{
+    font-size:.9rem;
+}
 .bg-caption-title, .bg-caption-txt{
     color:var(--ui-font-color-1);
 }
@@ -160,6 +163,9 @@ h1{
     grid-column:1/-1;
     text-align:center;
     padding-bottom:var(--padding);
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 .work-tile{
     text-align:center;
@@ -167,7 +173,6 @@ h1{
     padding:var(--padding);
     min-height:10rem;
     max-height:320px;
-    height:100%;
 }
 @media (min-width:568px) {
     .header-nav{
