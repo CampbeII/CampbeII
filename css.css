@@ -178,6 +178,7 @@ h1{
 */
 #hire label{
     display:block;
+    margin-top:var(--padding);
 }
 #hire input{
     background:var(--ui-color-2);
@@ -189,6 +190,8 @@ h1{
 #hire textarea{
     background:var(--ui-color-2);
     min-height:8rem;
+    width:100%;
+    font-family:'Open Sans', sans-serif;
 }
 @media (min-width:568px) {
     .header-nav{
