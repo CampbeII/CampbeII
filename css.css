@@ -7,6 +7,16 @@
     --padding:0.5rem;
     --section-padding:1rem;
 }
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    color:var(--ui-font-color-1);
+    font-family:'Open Sans', sans-serif;
+    font-size:16px;
+}
 header{
     display:flex;
     padding:var(--padding);
@@ -47,7 +57,7 @@ header{
 }
 .header-menu{
     --line-width:2rem;
-    --line-height:2px;
+    --line-height:0.1rem;
     --line-radius:3px;
     --line-color:var(--ui-font-color-1);
     --line-color-open:var(--ui-font-color-1);
@@ -82,10 +92,6 @@ header{
 }
 #open_menu:checked ~ .header-menu .header-menu-line:last-child{
     transform:rotate(45deg) translateY(var(--line-shift)) translateX(0.5rem);
-}
-body{
-    color:var(--ui-font-color-1);
-    font-family:'Open Sans', sans-serif;
 }
 main{
    padding-left:var(--padding); 
