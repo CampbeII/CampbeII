@@ -152,7 +152,6 @@ h1{
 #work{
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
-    grid-template-rows:repeat(auto-fit, minmax(200px,1fr));
     grid-gap:var(--padding);
     padding-top:var(--section-padding);
     padding-bottom:var(--section-padding);
@@ -160,12 +159,15 @@ h1{
 .work-title{
     grid-column:1/-1;
     text-align:center;
-    padding-bottom:var(--section-padding);
+    padding-bottom:var(--padding);
 }
 .work-tile{
     text-align:center;
     background:var(--ui-color-2);
     padding:var(--padding);
+    min-height:10rem;
+    max-height:320px;
+    height:100%;
 }
 @media (min-width:568px) {
     .header-nav{
