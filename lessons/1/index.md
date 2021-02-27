@@ -9,14 +9,17 @@ A simple guide that will cover the basics of HTML & CSS and how the work togethe
 ## 0. Basic HTML Layout
 For a fantastic break down of syntax check out mozilla's [anatomy-of-an-html-document](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started). The typical HTML Document consits of the following basic format:
 
-**!DOCTYPE**: A relic of the past used to describe the rules an HTML page needed to follow. In modern website design you just need:
-`<!DOCTYPE html>` at the very top of your page.
+`<!DOCTYPE html>`: A relic of the past used to describe the rules an HTML page needed to follow. In modern website design you just need: `<!DOCTYPE html>`
 
-**`<html>`**: Called the `root` element `<html>` wraps all the content on the page.
-**`<head>`**: A container for metadata, links to css, descriptions and pretty much anything that **isn't content**'
-**`<meta charset="utf-8">`**: Specifies your character set. Omitting this may cause issues. There's no reason not to do this.
-**`<title>`**: The information that is displayed in browser tabs, bookmarks, and SEO results.
-**`<body>`**: The element that will contain all your content.
+`<html>`: Called the `root` element `<html>` wraps all the content on the page.
+
+`<head>`: A container for metadata, links to css, descriptions and pretty much anything that **isn't content**'
+
+`<meta charset="utf-8">`: Specifies your character set. Omitting this may cause issues. There's no reason not to do this.
+
+`<title>`: The information that is displayed in browser tabs, bookmarks, and SEO results.
+
+`<body>`: The element that will contain all your content.
 
 ### Putting it all together
 Create a document with the name `index.html`
