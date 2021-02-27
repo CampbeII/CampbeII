@@ -3,23 +3,23 @@ A start to finish guide on how to create, customize, and host your first portfol
 
 ## What We'll Cover
 - [Create a GitHub account](#0-create-a-github-account)
-- [Create a secret repository](#1-create-a-secret-repository)
+- [Create a secret repository](#1-create-a-special-repository)
 - [Initialize GitHub pages](#2-initialize-github-pages)
 - [Connect to a repository](#3-connect-to-a-repository)
-- [Clone the repository](#3-clone-the-repository)
-- [Customize a website](#github)
+- [Clone the repository](#4-clone-the-repository)
+- [Customize a website](#5-customize-your-website)
 
 ## 0. Create a GitHub Account
 This part should be easy since you're already on GitHub. Head to the [sign up page](https://github.com/join)
 Take some time to dig into your settings you can change the theme, your picture, and more.
 
-## 1. Create a Secret Repository
-When you use your exact username as the name of your new repo GitHub  will initialize a secret repo that allows you to host a website directly from your profile. Make sure that you meet the following conditions:
+## 1. Create a Special Repository
+When you use your exact username as the name of your new repo GitHub  will initialize a special repo that allows you to host a website directly from your profile. Make sure that you meet the following conditions:
 - [x] The repo name is the exact same as your username
 - [x] You have checked the public box
 - [x] You have checked "initialize with a README.md" box
 
-If successful you should see an image similar to below:
+If successful, you should see an image similar to below:
 ![secret repo](images/secret-repo.png)
 
 ### 2. Initialize GitHub Pages
@@ -47,7 +47,6 @@ Sweet! Okay, we should now have the following files in our directory:
 ```shell
 ls
 README.md
-_config.yml
 ```
 **README.md**
 This is a markdown file. It uses GitHubs' modified markdown syntax which you can read more about [here](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
@@ -57,19 +56,22 @@ A README.md will be the first thing someone sees when they visit your repo. Howe
 **_config.yml**
 This is a [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) file. It is used to configure our theme. When you change your theme in your settings, the change will be applied here.
 
-## 5. Customizing Your Website
+## 5. Customize Your Website
 View your website by visiting the link specified in your settings under GitHub Pages. It typically looks like:
+
 ```shell
 https://username.github.io/username
 ```
-The first thing you will notice is that your website contains the contents of your `README.md` file along with some other automatically generated content. In order to change the look of this page we will need to add some files to our project.
 
-Visit the repository of your chosen theme. You can find a list of themes [here](https://pages.github.com/themes/)
+The first thing you will notice is that your website contains the contents of your `README.md` file along with some other automatically generated content. We're going to create a completely custom website. In order to do that, we're going to need 2 files:
 
-In the theme repo we are going to copy the following files & structure exactly:
+- `index.html`
+- `css.css`
 
-- `_layouts/default.html`
-- `assets/css/styles.scss`
+**Please Note:** It might take a little time for your new changes to be reflect on GitHub.
+In the next lesson we're going to cover some basics of html/css and wesbite design:
 
-To quickly copy the contents of the `default.html` and `styles.scss` files you can click the "Raw" button when viewing the file.
-![raw copy](images/raw.png)
+- [basic html layout](lessons/1/index.html#0-basic-html-layout)
+- [writing performant css](lessons/1/index.html#1-writing-performant-css)
+- [responsive pure css menu](lessons/1/index.html#2-responsive-pure-css-menu)
+- [dark/light theme](lessons/1/index.html#3-pure-css-dark-or-light-theme)
