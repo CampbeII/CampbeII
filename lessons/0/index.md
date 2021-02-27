@@ -75,6 +75,6 @@ The first thing you will notice is that your website contains the contents of yo
 
 In the next lesson we're going to cover some basics of html/css and wesbite design and work on filling in our `index.html` and `css.css` files:
 
-- [basic html layout](lessons/1/index.html#0-basic-html-layout)
-- [writing performant css](lessons/1/index.html#1-writing-performant-css)
-- [linking-your-css](#2-linking-your-css)
+- [basic html layout](lessons/1/index.md#0-basic-html-layout)
+- [writing performant css](lessons/1/index.md#1-writing-performant-css)
+- [linking-your-css](lessons/1/index.md#2-linking-your-css)
