@@ -13,5 +13,5 @@ When learning a new subject or language I like to write tutorials for myself. Th
 
 **Warning:** 
 Some tutorials might be incomplete. Life gets in the way sometimes, and I need to stop learning cool things, in order to make money, to afford the time...to keep learning cool things.
-- [Tutorials](/tutorials/index.md)
+- Tutorials (coming soon)
 
