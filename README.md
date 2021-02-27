@@ -11,6 +11,8 @@ Recently a group of motivated web developers have banded together to network, an
 ## Tutorials
 When learning a new subject or language I like to write tutorials for myself. This not only helps me understand,  but gives me something to reference later that is writen in a way I can understand. Whether or not it makes sense to anyone else is debatable.
 
-**Warning:** Some tutorials might be incomplete. Life gets in the way sometimes, and I need stop learning cool things to make money to afford the time to keep learning cool things.
+**Warning:** 
+Some tutorials might be incomplete. Life gets in the way sometimes, and I need to stop learning cool things, in order to make money, to afford the time...to keep learning cool things.
+
 [Tutorials](/tutorials/index.md)
 
