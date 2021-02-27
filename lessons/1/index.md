@@ -9,7 +9,7 @@ A simple guide that will cover the basics of HTML & CSS and how the work togethe
 ## 0. Basic HTML Layout
 For a fantastic break down of syntax check out mozilla's [anatomy-of-an-html-document](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started). The typical HTML Document consits of the following basic format:
 
-`<!DOCTYPE html>`: A relic of the past used to describe the rules an HTML page needed to follow. In modern website design you just need: `<!DOCTYPE html>`
+`<!DOCTYPE html>`: In modern website design this is all you need at the top of your page.
 
 `<html>`: Called the `root` element `<html>` wraps all the content on the page.
 
@@ -45,7 +45,7 @@ When making a very basic website you won't need to worry about [computed style c
 
 > Roughly 50% of the time used to calculate the computed style for an element is used to match selectors, and the other half is used for constructing the RenderStyle from the matched rules.
 
-What does this even mean? Well consider how CSS works under the hood by looking at this html:
+What does this even mean? Consider how CSS works under the hood by looking at this html:
 
 ```html
     <div>
@@ -65,7 +65,8 @@ What we want to do is target the `.title` of the last `.box` element. You might 
     /* styles */
 }
 ```
-Your browser will read this from right to left asking: is this an element of `.title` belonging to the last element with a class of `.box`? This is a simple example, but regardless the browser will take additional time to figure this out. 
+Your browser will read this from **right to left** asking: 
+Is this an element of `.title` belonging to the last element with a class of `.box`? This is a simple example, but regardless the browser will take additional time to figure this out. 
 
 To get pin-point accuracy, we can add a class to the final box:
 
