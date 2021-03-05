@@ -92,3 +92,37 @@ For more information and tips on how to write better queries checkout [Block, El
 
 ## 2. Linking your CSS
 Now that you understand HTML layout, and how CSS works, it's time to put it all together! Let's start by adding a `<link>` element to our `<head>`'
+```html
+<link rel="stylesheet" href="css.css"/>
+```
+
+### 3. Parallax Design
+Parallax in website designs involves moving the background at a different speed than the foregraound. Let start by creating our HTML document.
+
+```html
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Parallax Effect</title>
+            <link rel="stylesheet" href="css.css"/>
+        </head>
+        <body>
+            <main class="parallax">
+                <section class="parallax-1">
+                    <h1>Parallax 1</h1>
+                </section>
+                <section class="parallax-content-1">
+                    <h2>Page content</h2>
+                    <p>This will be regular content.</p>
+                </section>
+                <section class="parallax-2">
+                    <h2>Parallax 2</h2>
+                </section>
+            </main>
+        </body>
+    </html>
+```
+
+
+
