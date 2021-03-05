@@ -19,7 +19,7 @@ body {
     bottom:0;
     margin-left:-1500px;
 }
-.parallax-layer {
+.parallax > section {
     position:absolute;
     top:0;
     right:0;
